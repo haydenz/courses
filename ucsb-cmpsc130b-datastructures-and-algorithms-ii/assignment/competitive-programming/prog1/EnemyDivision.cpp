@@ -1,3 +1,7 @@
+/*
+https://open.kattis.com/problems/enemydivision
+*/
+
 #include <iostream>
 #include <vector>
 
