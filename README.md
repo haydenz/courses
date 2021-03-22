@@ -6,4 +6,4 @@
 
 ## [Using Databases with Python](https://github.com/haydenz/courses/tree/main/coursera-using-databases-with-python)
 
-## [UCSB CMPCS130B](https://github.com/haydenz/courses/tree/main/ucsb-cmpsc130b-datastructures-and-algorithms-ii/assignment/competitive-programming) 
+## [UCSB CMPCS130B](https://github.com/haydenz/courses/tree/main/ucsb-cmpsc130b-datastructures-and-algorithms-ii) 
