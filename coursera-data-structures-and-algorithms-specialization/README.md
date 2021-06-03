@@ -50,6 +50,7 @@
     - Week 6: Advanced Shortest Paths Project (Optional)
 
 ## Course 4: Algorithms on Strings
+  - **[Certificate](https://www.coursera.org/account/accomplishments/certificate/ZFT22FUHQCWS)** Grade Achieved: 99.5%
   - **Level**: Intermediate
   - **Commitment**: 5 weeks of study, 17 hours in total
   - **Syllabus**:
@@ -61,7 +62,8 @@
       1. BWT and BWT pattern matching
       2. Suffix array and pattern matching
       3. Approx. pattern matching
-    - Week 3:
+    - Week 3: Kruth Morris Pratt Algorithm
+    - Week 4: Suffix Array and Suffix Tree
  
  ## Course 5: Advanced Algorithms and Complexity
    You've learned the basic algorithms now and are ready to step into the area of more complex problems and algorithms to solve them. Advanced algorithms build upon basic ones and use new ideas. We will start with networks flows which are used in more typical applications such as optimal matchings, finding disjoint paths and flight scheduling as well as more surprising ones like image segmentation in computer vision. We then proceed to linear programming with applications in optimizing budget allocation, portfolio optimization, finding the cheapest diet satisfying all requirements and many others. Next we discuss inherently hard problems for which no exact good solutions are known (and not likely to be found) and how to solve them in practice. We finish with a soft introduction to streaming algorithms that are heavily used in Big Data processing. Such algorithms are usually designed to be able to process huge datasets without being able even to store a dataset.
