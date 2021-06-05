@@ -1,12 +1,16 @@
 # python3
+import queue
+
 
 class Edge:
-
     def __init__(self, u, v, capacity):
         self.u = u
         self.v = v
         self.capacity = capacity
         self.flow = 0
+
+    def check(self):
+        return self.capacity - self.flow
 
 # This class implements a bit unusual scheme for storing edges of the graph,
 # in order to retrieve the backward edge for a given edge quickly.
@@ -50,7 +54,7 @@ class FlowGraph:
 
 
 def read_data():
-    vertex_count, edge_count = map(int, input().split())
+    vertex_count, edge_count = map(int, input().split()) # integers n,m: number of cities and number of roads
     graph = FlowGraph(vertex_count)
     for _ in range(edge_count):
         u, v, capacity = map(int, input().split())
@@ -58,11 +62,47 @@ def read_data():
     return graph
 
 
+def bfs(graph, from_, to):
+    q = queue.Queue()
+    q.put((from_, []))
+
+    visited = set()
+    while not q.empty():
+        (u, p) = q.get()
+        if u in visited:
+            continue
+        visited.add(u)
+        edges = graph.get_ids(u)
+        for e in edges:
+            edge = graph.get_edge(e)
+            if edge.v in visited:
+                continue
+            if edge.check() > 0:
+                if edge.v == to:
+                    p.append(e)
+                    return p
+                next = list(p)
+                next.append(e)
+                q.put((edge.v, next))
+
+    return None
+
+
 def max_flow(graph, from_, to):
     flow = 0
-    # your code goes here
+    while True:
+        p = bfs(graph, from_, to)
+        if p is None:
+            break
+        _min = graph.get_edge(p[0]).check()
+        for e in p:
+            tmp = graph.get_edge(e).check()
+            if tmp < _min:
+                _min = tmp
+        for e in p:
+            graph.add_flow(e, _min)
+        flow += _min
     return flow
-
 
 if __name__ == '__main__':
     graph = read_data()
