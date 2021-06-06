@@ -1,4 +1,7 @@
 # Data Structures and Algorithms
+**[Certificate Obtained](https://www.coursera.org/account/accomplishments/specialization/certificate/766EHS2SD3FM)**
+
+
 **About this [Specialization](https://www.coursera.org/specializations/data-structures-algorithms)**: this specialization is a mix of theory and practice
   - Learn algorithmic techniques for solving various computational problems
   - Implement about 100 algorithmic coding problems 
@@ -66,8 +69,18 @@
     - Week 4: Suffix Array and Suffix Tree
  
  ## Course 5: Advanced Algorithms and Complexity
-   You've learned the basic algorithms now and are ready to step into the area of more complex problems and algorithms to solve them. Advanced algorithms build upon basic ones and use new ideas. We will start with networks flows which are used in more typical applications such as optimal matchings, finding disjoint paths and flight scheduling as well as more surprising ones like image segmentation in computer vision. We then proceed to linear programming with applications in optimizing budget allocation, portfolio optimization, finding the cheapest diet satisfying all requirements and many others. Next we discuss inherently hard problems for which no exact good solutions are known (and not likely to be found) and how to solve them in practice. We finish with a soft introduction to streaming algorithms that are heavily used in Big Data processing. Such algorithms are usually designed to be able to process huge datasets without being able even to store a dataset.
+  - **Level**: Advanced
+  - **Commitment**: 5 weeks of study, 27 hours in total
+  - **Syllabus**:
+    - Week 1: Flows in Networks
+      1. Maxflow Algorithms
+        - Ford-Fulkersion Algorithm
+        - Edmonds-Karp Algorithm
+      2. Applications
+        - Bipartite Matching
+        - Image Segmentation
+    - Week 2: Linear Programming
 
+    
 ## Course 6: Genome Assembly Programming Challenge
-  In Spring 2011, thousands of people in Germany were hospitalized with a deadly disease that started as food poisoning with bloody diarrhea and often led to kidney failure. It was the beginning of the deadliest outbreak in recent history, caused by a mysterious bacterial strain that we will refer to as E. coli X. Soon, German officials linked the outbreak to a restaurant in Lübeck, where nearly 20% of the patrons had developed bloody diarrhea in a single week. At this point, biologists knew that they were facing a previously unknown pathogen and that traditional methods would not suffice – computational biologists would be needed to assemble and analyze the genome of the newly emerged pathogen. To investigate the evolutionary origin and pathogenic potential of the outbreak strain, researchers started a crowdsourced research program. They released bacterial DNA sequencing data from one of a patient, which elicited a burst of analyses carried out by computational biologists on four continents. They even used GitHub for the project: https://github.com/ehec-outbreak-crowdsourced/BGI-data-analysis/wiki The 2011 German outbreak represented an early example of epidemiologists collaborating with computational biologists to stop an outbreak. In this Genome Assembly Programming Challenge, you will follow in the footsteps of the bioinformaticians investigating the outbreak by developing a program to assemble the genome of the E. coli X from millions of overlapping substrings of the E.coli X genome.
- 
+  - **Level**: Advanced
