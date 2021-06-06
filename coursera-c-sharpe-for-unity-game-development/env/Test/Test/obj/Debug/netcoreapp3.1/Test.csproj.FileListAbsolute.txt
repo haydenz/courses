@@ -1,0 +1,12 @@
+/Users/haydenz/Documents/learning/courses/coursera-c-sharpe-for-unity-game-development/env/Test/Test/bin/Debug/netcoreapp3.1/Test.deps.json
+/Users/haydenz/Documents/learning/courses/coursera-c-sharpe-for-unity-game-development/env/Test/Test/bin/Debug/netcoreapp3.1/Test.runtimeconfig.json
+/Users/haydenz/Documents/learning/courses/coursera-c-sharpe-for-unity-game-development/env/Test/Test/bin/Debug/netcoreapp3.1/Test.runtimeconfig.dev.json
+/Users/haydenz/Documents/learning/courses/coursera-c-sharpe-for-unity-game-development/env/Test/Test/bin/Debug/netcoreapp3.1/Test.dll
+/Users/haydenz/Documents/learning/courses/coursera-c-sharpe-for-unity-game-development/env/Test/Test/bin/Debug/netcoreapp3.1/Test.pdb
+/Users/haydenz/Documents/learning/courses/coursera-c-sharpe-for-unity-game-development/env/Test/Test/obj/Debug/netcoreapp3.1/Test.csprojAssemblyReference.cache
+/Users/haydenz/Documents/learning/courses/coursera-c-sharpe-for-unity-game-development/env/Test/Test/obj/Debug/netcoreapp3.1/Test.AssemblyInfoInputs.cache
+/Users/haydenz/Documents/learning/courses/coursera-c-sharpe-for-unity-game-development/env/Test/Test/obj/Debug/netcoreapp3.1/Test.AssemblyInfo.cs
+/Users/haydenz/Documents/learning/courses/coursera-c-sharpe-for-unity-game-development/env/Test/Test/obj/Debug/netcoreapp3.1/Test.csproj.CoreCompileInputs.cache
+/Users/haydenz/Documents/learning/courses/coursera-c-sharpe-for-unity-game-development/env/Test/Test/obj/Debug/netcoreapp3.1/Test.dll
+/Users/haydenz/Documents/learning/courses/coursera-c-sharpe-for-unity-game-development/env/Test/Test/obj/Debug/netcoreapp3.1/Test.pdb
+/Users/haydenz/Documents/learning/courses/coursera-c-sharpe-for-unity-game-development/env/Test/Test/obj/Debug/netcoreapp3.1/Test.genruntimeconfig.cache
